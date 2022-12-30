@@ -11,7 +11,7 @@ export default {
     {
       name: 'sub',
       title: 'Sub',
-      type: 'number',
+      type: 'string',
     },
     {
       name: 'image',
