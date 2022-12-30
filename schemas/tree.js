@@ -7,7 +7,7 @@ export default {
       name: 'plantedby',
       title: 'PlantedBy',
       type: 'reference',
-      to: [{type: 'user'}],
+      to: [{ type: 'user' }],
     },
     {
       name: 'location',
@@ -15,12 +15,12 @@ export default {
       type: 'geopoint',
     },
     {
-      name: 'species', 
+      name: 'species',
       title: 'Species',
       type: 'string',
     },
     {
-      name: 'plant_image', 
+      name: 'plant_image',
       title: 'Plant_Image',
       type: 'image',
     },
@@ -28,6 +28,12 @@ export default {
       name: 'plantedDate',
       title: 'PlantedDate',
       type: 'date',
+    },
+    {
+      name: 'watered',
+      title: 'Watered',
+      type: 'array',
+      of: [{ type: 'reference', to: [{ type: 'watereddata' }] }],
     },
   ],
 }
