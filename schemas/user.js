@@ -9,11 +9,6 @@ export default {
       type: 'string',
     },
     {
-      name: 'sub',
-      title: 'Sub',
-      type: 'string',
-    },
-    {
       name: 'image',
       title: 'Image',
       type: 'string',
