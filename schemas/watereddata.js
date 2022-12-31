@@ -20,5 +20,10 @@ export default {
             type: 'reference',
             to: [{ type: 'trees' }]
         },
+        {
+            name: 'wateredDate',
+            title: 'WateredDate',
+            type: 'date'
+        }
     ]
 }
