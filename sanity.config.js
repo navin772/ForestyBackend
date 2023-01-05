@@ -8,7 +8,7 @@ export default defineConfig({
   title: 'TreeCaresSanity',
 
   projectId: '1h9gdetx',
-  dataset: 'production',
+  dataset: 'foresty',
 
   plugins: [deskTool(), visionTool()],
 
