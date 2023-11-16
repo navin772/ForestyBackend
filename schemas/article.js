@@ -23,16 +23,6 @@ export default {
             title: 'Author',
             type: 'reference',
             to: [{ type: 'user' }]
-        },
-        {
-            name: 'createdDate',
-            title: 'CreatedDate',
-            type: 'date'
-        },
-        {
-            name: 'editedDate',
-            title: 'EditedDate',
-            type: 'date'
         }
     ]
 }
